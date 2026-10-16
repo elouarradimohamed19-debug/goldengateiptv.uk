@@ -41,7 +41,7 @@ export default function Navbar({ withBanner = false }: { withBanner?: boolean })
               <Tv size={18} className="text-white" />
             </span>
             <span className="font-display">
-              British<span className="text-brand-400">IPTV</span>
+              IPTV<span className="text-brand-400"> UK</span>
             </span>
           </Link>
 

@@ -43,7 +43,7 @@ export default function Footer() {
                 <Tv className="text-white" size={18} />
               </span>
               <span className="font-display">
-                British<span className="text-brand-400">IPTV</span>
+                IPTV<span className="text-brand-400"> UK</span>
               </span>
             </Link>
             <p className="text-zinc-400 text-sm leading-relaxed mb-4">
