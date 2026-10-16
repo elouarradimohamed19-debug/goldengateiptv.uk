@@ -51,27 +51,29 @@ export default function IptvUkGuide() {
             What is IPTV UK?
           </h2>
           <p className="mt-5 text-lg leading-relaxed text-zinc-300">
-            <strong className="text-white">IPTV UK</strong> (Internet Protocol Television) is a way of watching live
-            British TV channels, sport, films and box sets over your broadband connection instead of a satellite dish or
-            cable box. You pay a monthly or yearly subscription, install an IPTV app on your Smart TV, Firestick or phone,
-            and stream everything in HD or 4K — with no contract and no engineer visit.{" "}
+            <strong className="text-white">IPTV UK</strong> means watching television in the UK over the internet
+            (Internet Protocol Television) rather than through a satellite dish, aerial or cable box. Your live
+            channels, sport, films and box sets arrive through your broadband line, so all you need is a subscription,
+            an IPTV app on your Smart TV, Firestick or phone, and a steady connection — no engineer, no wiring, no
+            18-month tie-in.{" "}
             <Link href="/blog/what-is-iptv-complete-guide" className="text-brand-300 underline-offset-4 hover:underline">
               Read the full beginner&apos;s guide to IPTV
             </Link>
             .
           </p>
           <p className="mt-4 leading-relaxed text-zinc-400">
-            <strong className="text-zinc-200">IPTV UK</strong> is a UK IPTV subscription with 50,000+ live channels
-            and 200,000+ movies and series on demand. Plans start at £15 for one month, or £5 a month on the 12-month
-            plan, and every plan includes a 7-day catch-up, an electronic programme guide (EPG) and 24/7 WhatsApp support.
+            Our <strong className="text-zinc-200">IPTV UK</strong> subscription carries 50,000+ live channels and
+            200,000+ films and series on demand. Prices run from £15 for a single month down to the equivalent of
+            £5 a month on the 12-month plan, and every option includes 7-day catch-up, a full electronic programme
+            guide (EPG) and WhatsApp support around the clock.
           </p>
 
           <h3 className="mt-10 text-xl font-semibold text-white">How does IPTV work in the UK?</h3>
           <ol className="mt-4 space-y-3">
             {[
-              "Choose a plan and the number of devices you need — or start with the free 3-hour trial.",
-              "Receive your M3U link or Xtream Codes login on WhatsApp within minutes.",
-              "Enter the login into an IPTV app such as TiviMate or IPTV Smarters Pro and start watching.",
+              "Pick a plan and how many devices you want to watch on — or try the free 3-hour trial first.",
+              "We send your M3U link or Xtream Codes login over WhatsApp, usually within a few minutes.",
+              "Paste those details into an IPTV app such as TiviMate or IPTV Smarters Pro and the channels load.",
             ].map((step, i) => (
               <li key={step} className="flex gap-4 text-zinc-300">
                 <span className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-sm font-bold text-brand-300">

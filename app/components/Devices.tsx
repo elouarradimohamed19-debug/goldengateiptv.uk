@@ -134,7 +134,7 @@ export default function Devices() {
               Works on <span className="text-gradient">every device</span> you own
             </>
           }
-          subtitle="One subscription, unlimited devices. Set up in minutes on any platform."
+          subtitle="One subscription, your choice of up to four connections. A few minutes to set up on any platform."
         />
 
         <div className="grid grid-cols-2 gap-5 sm:grid-cols-4">
@@ -158,7 +158,7 @@ export default function Devices() {
         </div>
 
         <p className="reveal mt-12 text-center text-sm text-zinc-500">
-          Compatible with TiviMate, IPTV Smarters Pro, GSE IPTV, Perfect Player, and all standard M3U players.
+          Pick your favourite player — TiviMate, IPTV Smarters Pro, GSE Smart IPTV, Perfect Player or any standard M3U / Xtream Codes app.
         </p>
       </div>
     </section>

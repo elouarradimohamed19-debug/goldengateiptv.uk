@@ -5,26 +5,26 @@ const steps = [
   {
     number: "01",
     icon: CreditCard,
-    title: "Choose Your Plan",
+    title: "Pick a Plan (or Trial)",
     description:
-      "Pick a subscription that suits you — monthly, quarterly, or annual. All plans include a free 3-hour trial. No credit card needed for the trial.",
-    detail: "Instant activation after payment",
+      "Choose the length and number of devices that suit you, from one month to two years — or start with the free 3-hour trial first. No card details needed to try it.",
+    detail: "Activated as soon as you pay",
   },
   {
     number: "02",
     icon: Download,
-    title: "Install an IPTV App",
+    title: "Add a Free Player App",
     description:
-      "Download any free IPTV player on your device — TiviMate, IPTV Smarters, or GSE IPTV. We support all major apps across all platforms.",
-    detail: "Step-by-step guides provided for each device",
+      "Install any standard IPTV app on your device — TiviMate, IPTV Smarters Pro or GSE Smart IPTV all work. We'll point you to the right one for your gear.",
+    detail: "Guides written for every device",
   },
   {
     number: "03",
     icon: Tv2,
-    title: "Start Watching",
+    title: "Paste Your Login & Watch",
     description:
-      "Enter your M3U URL or Xtream Codes login into the app. Your 50,000+ channels load instantly. Enjoy live TV, catch-up, and VOD.",
-    detail: "Live in under 5 minutes",
+      "Drop the M3U link or Xtream Codes details we send you into the app and your full channel list, catch-up and on-demand library load straight away.",
+    detail: "Watching in under 5 minutes",
   },
 ];
 
@@ -39,7 +39,7 @@ export default function Setup() {
               Up and running in <span className="text-gradient">3 simple steps</span>
             </>
           }
-          subtitle="No technical knowledge needed. If you can download an app, you can set this up."
+          subtitle="No technical know-how required. If you can install an app, you can get this working."
         />
 
         <div className="relative">

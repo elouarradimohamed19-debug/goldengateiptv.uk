@@ -59,7 +59,7 @@ export default function Channels() {
               <span className="text-gradient">50,000+</span> channels at your fingertips
             </>
           }
-          subtitle="Every major British channel plus thousands of international options."
+          subtitle="Every major UK channel, the live sport people actually search for, and thousands of international options."
         />
       </div>
 

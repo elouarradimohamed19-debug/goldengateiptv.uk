@@ -47,7 +47,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-zinc-400 text-sm leading-relaxed mb-4">
-              The UK&apos;s most reliable IPTV service. 50,000+ channels, 4K quality, zero buffering.
+              A straightforward IPTV UK subscription — 50,000+ live channels and 200,000+ films & series in up to 4K, delivered over your broadband with support on WhatsApp.
             </p>
             <div className="flex flex-col gap-2">
               <a

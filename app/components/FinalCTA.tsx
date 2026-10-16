@@ -12,10 +12,10 @@ export default function FinalCTA() {
 
         <div className="relative">
           <h2 className="mx-auto max-w-3xl text-4xl font-bold text-white sm:text-5xl">
-            Ready to cut the cord? Try it free for 3 hours.
+            See it for yourself — 3 hours, free, no strings.
           </h2>
           <p className="mx-auto mt-5 max-w-xl text-lg text-brand-100/80">
-            Message us on WhatsApp and you&apos;ll be watching in minutes. No credit card, no commitment.
+            Send one WhatsApp message and we&apos;ll set up your trial while you wait. No card, no sign-up form, no commitment.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a

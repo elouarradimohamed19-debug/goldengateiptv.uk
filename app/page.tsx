@@ -21,9 +21,9 @@ import { SITE_URL } from "./lib/site";
 
 const BASE_URL = SITE_URL;
 
-const TITLE = "IPTV UK 2026 – Best UK IPTV Subscription | IPTV UK";
+const TITLE = "IPTV UK 2026 — 50,000+ Live Channels & 4K Subscription";
 const DESCRIPTION =
-  "IPTV UK subscription with 50,000+ live channels and 200,000+ movies & series in 4K. Works on Firestick, Smart TV & phones. Plans from £15, free 3-hour trial.";
+  "A UK IPTV subscription with 50,000+ live channels and 200,000+ films & series in up to 4K, streamed over your broadband. Works on Firestick, Smart TV, Android & iPhone. Plans from £15, free 3-hour trial.";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -81,9 +81,9 @@ const schema = {
     {
       "@type": "Product",
       "@id": `${BASE_URL}/#product`,
-      name: "IPTV UK — IPTV UK Subscription",
+      name: "IPTV UK Subscription",
       description:
-        "UK IPTV subscription with 50,000+ live channels, 200,000+ movies and series on demand, 4K streaming, 7-day catch-up and 24/7 support.",
+        "A UK IPTV subscription delivering 50,000+ live channels and 200,000+ films and series on demand in up to 4K, with 7-day catch-up, a full EPG and WhatsApp support around the clock.",
       image: `${BASE_URL}/og-image.png`,
       brand: { "@type": "Brand", name: "IPTV UK" },
       offers: {

@@ -126,21 +126,22 @@ export default function Hero() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-400" />
             </span>
-            Live streams available now
+            Live channels streaming right now
             <Sparkles size={12} className="text-brand-300" />
           </div>
 
           <h1
             className="mt-7 text-5xl font-extrabold leading-[1.05] text-white sm:text-6xl lg:text-7xl"
           >
-            The Best <span className="text-gradient">IPTV UK</span> Experience
+            <span className="text-gradient">IPTV UK</span> done the honest way
           </h1>
 
           <p
             className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-zinc-400 sm:text-xl lg:mx-0"
           >
-            The UK IPTV subscription built for British viewers. Stream 50,000+ live channels and 200,000+
-            movies and series in crystal-clear 4K on any device — no dish, no contract, no buffering.
+            A UK IPTV subscription with 50,000+ live channels and 200,000+ films and box sets in up to 4K,
+            delivered straight over your broadband. No satellite dish, no 18-month contract, and no buffering
+            on a steady connection — just reliable streaming on the devices you already own.
           </p>
 
           <div
@@ -167,7 +168,7 @@ export default function Hero() {
           </div>
 
           <p className="hero-in mt-5 text-sm text-zinc-500" style={delay(320)}>
-            Free 3-hour trial · No credit card · Activated in minutes
+            3-hour trial · No card details · Up and running in minutes
           </p>
         </div>
 

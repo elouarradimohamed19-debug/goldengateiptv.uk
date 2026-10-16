@@ -14,7 +14,7 @@ const plans = [
     basePrice: 15,
     devicePrices: { 1: 15, 2: 20, 3: 25, 4: 30 },
     period: "one-off",
-    description: "Perfect for getting started",
+    description: "Try before you commit",
     highlight: false,
   },
   {
@@ -23,7 +23,7 @@ const plans = [
     basePrice: 35,
     devicePrices: { 1: 35, 2: 45, 3: 55, 4: 65 },
     period: "every 3 months",
-    description: "Great value for regular viewers",
+    description: "A season of sport sorted",
     highlight: false,
   },
   {
@@ -33,7 +33,7 @@ const plans = [
     devicePrices: { 1: 45, 2: 60, 3: 75, 4: 90 },
     period: "every 6 months",
     badge: "Popular",
-    description: "Best balance of price and flexibility",
+    description: "The sweet spot on price and flexibility",
     highlight: true,
   },
   {
@@ -42,7 +42,7 @@ const plans = [
     basePrice: 60,
     devicePrices: { 1: 60, 2: 80, 3: 100, 4: 120 },
     period: "per year",
-    description: "Serious savings for committed viewers",
+    description: "Best price per month, one payment",
     highlight: false,
   },
   {
@@ -52,7 +52,7 @@ const plans = [
     devicePrices: { 1: 110, 2: 145, 3: 180, 4: 215 },
     period: "every 2 years",
     badge: "Best Value",
-    description: "Maximum savings, set it and forget it",
+    description: "Lock in the lowest rate and forget it",
     highlight: false,
   },
 ];
@@ -95,7 +95,7 @@ export default function Pricing() {
               Simple, <span className="text-gradient">honest</span> pricing
             </>
           }
-          subtitle="No hidden fees. No contracts. Cancel anytime. Free 3-hour trial available."
+          subtitle="One clear price per plan. No hidden fees, no rolling contract, and a free 3-hour trial before you decide."
           className="mb-12!"
         />
 
@@ -231,7 +231,7 @@ export default function Pricing() {
         </div>
 
         <p className="mt-8 text-center text-sm text-zinc-500">
-          All plans include a free 3-hour trial. Contact us on WhatsApp to activate it — no credit card required.
+          Every plan starts with a free 3-hour trial. Message us on WhatsApp to switch it on — no card details needed.
         </p>
       </div>
     </section>

@@ -6,43 +6,43 @@ const features = [
     icon: Tv2,
     title: "50,000+ Live Channels",
     description:
-      "British, American, sports, news, kids — massive channel library covering every genre and region.",
+      "UK terrestrial and premium channels alongside sport, news, kids and thousands of international options — one library covering every genre and region.",
     span: "lg:col-span-2",
     tint: "from-brand-500/25",
   },
   {
     icon: MonitorPlay,
-    title: "4K Ultra HD Streaming",
+    title: "Up to 4K Picture",
     description:
-      "Crystal-clear picture quality with Dolby Audio support. Watch like you're in the studio.",
+      "Streams in SD, HD, Full HD and 4K with Dolby-quality audio, scaled automatically to whatever your connection can handle.",
     tint: "from-accent-500/20",
   },
   {
     icon: Wifi,
-    title: "Zero Buffering",
+    title: "Stable on Peak Nights",
     description:
-      "Our optimised CDN network ensures smooth, uninterrupted streaming even during peak hours.",
+      "Load-balanced servers and anti-freeze delivery keep the picture steady on busy Saturday-night sport, not just at 3am.",
     tint: "from-sky-500/20",
   },
   {
     icon: Globe,
-    title: "Works Everywhere",
+    title: "Any Device You Own",
     description:
-      "Compatible with Smart TV, Firestick, Android, iOS, MAG, and any IPTV player. Any device, any time.",
+      "Firestick, Smart TV, Android, iPhone, iPad, MAG box, Windows or Mac — if it runs an IPTV app, it runs our service.",
     tint: "from-brand-500/20",
   },
   {
     icon: Clock,
-    title: "7-Day Catch-Up TV",
+    title: "7-Day Catch-Up",
     description:
-      "Missed your favourite show? Replay anything from the last 7 days across supported channels.",
+      "Missed the match or last night's episode? Rewind up to seven days on supported channels and watch it whenever suits you.",
     tint: "from-violet-500/20",
   },
   {
     icon: HeadphonesIcon,
-    title: "24/7 Support",
+    title: "Real People on WhatsApp",
     description:
-      "Round-the-clock customer support via live chat and WhatsApp. We're always here when you need us.",
+      "Setup help and troubleshooting from a human, any hour of the day, on the same WhatsApp number you use to subscribe.",
     span: "lg:col-span-3",
     tint: "from-emerald-500/15",
   },
@@ -60,7 +60,7 @@ export default function Features() {
               Everything you need, <span className="text-gradient">nothing you don&apos;t</span>
             </>
           }
-          subtitle="Built for British viewers who demand the best. No contracts, no hidden fees."
+          subtitle="Made for UK viewers who want it to simply work. No contracts, no surprise charges, no jargon."
         />
 
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">

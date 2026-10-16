@@ -25,41 +25,45 @@ const BASE_URL = SITE_URL;
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: "IPTV UK – Best UK IPTV Subscription | IPTV UK",
+    default: "IPTV UK | 50,000+ Channels in 4K, Free 3-Hour Trial",
     template: "%s — IPTV UK",
   },
   description:
-    "IPTV UK subscription with 50,000+ live channels and 200,000+ movies & series in 4K. Works on Firestick, Smart TV & phones. Free 3-hour trial.",
+    "IPTV UK subscription: 50,000+ live channels and 200,000+ films & series in up to 4K over your broadband. Works on Firestick, Smart TV, Android & iPhone. No contract, free 3-hour trial.",
   keywords: [
     "IPTV UK",
     "UK IPTV",
-    "IPTV UK",
     "IPTV subscription UK",
     "best IPTV UK",
+    "IPTV UK free trial",
     "Firestick IPTV UK",
     "4K IPTV UK",
+    "IPTV box UK",
   ],
   authors: [{ name: "IPTV UK" }],
   creator: "IPTV UK",
+  publisher: "IPTV UK",
   icons: {
     icon: "/favicon.svg",
     apple: "/apple-touch-icon.png",
+  },
+  alternates: {
+    canonical: BASE_URL,
   },
   openGraph: {
     type: "website",
     locale: "en_GB",
     url: BASE_URL,
     siteName: "IPTV UK",
-    title: "IPTV UK – Best UK IPTV Subscription | IPTV UK",
+    title: "IPTV UK | 50,000+ Channels in 4K, Free 3-Hour Trial",
     description:
-      "IPTV UK subscription with 50,000+ live channels and 200,000+ movies & series in 4K. Free 3-hour trial.",
+      "A UK IPTV subscription with 50,000+ live channels and 200,000+ films & series in up to 4K. No dish, no contract, free 3-hour trial.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "IPTV UK – Best UK IPTV Subscription | IPTV UK",
+    title: "IPTV UK | 50,000+ Channels in 4K, Free 3-Hour Trial",
     description:
-      "IPTV UK subscription with 50,000+ live channels and 200,000+ movies & series in 4K. Free 3-hour trial.",
-    creator: "@iptvbritish",
+      "A UK IPTV subscription with 50,000+ live channels and 200,000+ films & series in up to 4K. No dish, no contract, free 3-hour trial.",
   },
   robots: {
     index: true,

@@ -22,8 +22,8 @@ export default function OfferBanner() {
         </span>
 
         <p className="whitespace-nowrap text-xs font-bold sm:text-sm">
-          <span className="hidden sm:inline">📺 Try IPTV UK free for 3 hours — no credit card · Plans from £5/month</span>
-          <span className="sm:hidden">📺 3-hour free trial · No card</span>
+          <span className="hidden sm:inline">📺 Test IPTV UK free for 3 hours — no card needed · Plans from just £5/month</span>
+          <span className="sm:hidden">📺 Free 3-hour test · No card</span>
         </p>
 
         <a

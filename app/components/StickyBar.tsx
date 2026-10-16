@@ -35,7 +35,7 @@ export default function StickyBar() {
             Live Now
           </span>
           <p className="text-zinc-300 text-sm truncate">
-            <span className="text-white font-semibold">50,000+ channels</span> · 4K Ultra HD · Free 3-hour trial
+            <span className="text-white font-semibold">50,000+ channels</span> · Up to 4K · Try free for 3 hours
           </p>
         </div>
 
